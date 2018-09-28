@@ -51,4 +51,12 @@ public enum MultiTarget: TargetType {
         case .target(let target): return target
         }
     }
+    
+    public var cacheTimeInSeconds: Int {
+        return 0
+    }
+    
+    public var ignoreCache: Bool {
+        return false
+    }
 }
