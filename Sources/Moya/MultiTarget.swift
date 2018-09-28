@@ -53,10 +53,10 @@ public enum MultiTarget: TargetType {
     }
     
     public var cacheTimeInSeconds: Int {
-        return 0
+        return target.cacheTimeInSeconds
     }
     
     public var ignoreCache: Bool {
-        return false
+        return target.ignoreCache
     }
 }
